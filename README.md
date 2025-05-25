@@ -23,6 +23,7 @@ This project implements and containerizes a FastAPI Python application that serv
 ---
 
 ## Project Structure
+```
 ├── src/ # Main source code folder
 │ ├── configs/ # Configuration files
 │ ├── models/ # Model loading and inference logic
@@ -35,7 +36,7 @@ This project implements and containerizes a FastAPI Python application that serv
 ├── README.md # This file
 └── requirements.txt # Python dependencies list
 
-
+```
 
 
 ---
