@@ -1,5 +1,3 @@
-
-
 services:
   fastapi:
     build:
@@ -10,15 +8,15 @@ services:
     volumes:
       - ./src:/app/src
 
-  streamlit:
-    build:
-      context: .
-      dockerfile: Dockerfile.streamlit
-    ports:
-      - "8501:8501"
-    volumes:
-      - ./:/app
-    depends_on:
-      - fastapi
-    environment:
-      - BACKEND_URL=http://fastapi:8000/api
+  # streamlit:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile.streamlit
+  #   ports:
+  #     - "8501:8501"
+  #   volumes:
+  #     - ./:/app
+  #   depends_on:
+  #     - fastapi
+  #   environment:
+  #     - BACKEND_URL=http://fastapi:8000/api
