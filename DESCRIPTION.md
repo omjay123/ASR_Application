@@ -60,6 +60,9 @@
 ### GPU Optimization in Docker
 - ONNX model built for GPU, but GPU acceleration in Docker (`onnxruntime-gpu`) not fully tested due to hardware constraints.
 
+### Optimizationn of the ASR Model
+- Facing issues when connect the onnx inference for optimization. The code is attached.
+
 ### Language Limitation
 - Only supports Hindi ASR (trained model).
 - No multilingual or language detection functionality.
